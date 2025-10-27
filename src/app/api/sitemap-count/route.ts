@@ -7,7 +7,7 @@ export async function GET() {
   const siteUrl = process.env.NEXT_PUBLIC_URL_SITE_BASE;
 
 
-  const sitemapUrl = `${siteUrl}sitemap.xml`;
+  const sitemapUrl = `${siteUrl}/sitemap.xml`;
 
   try {
     const res = await fetch(sitemapUrl);

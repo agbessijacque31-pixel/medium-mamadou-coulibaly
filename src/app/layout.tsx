@@ -19,7 +19,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_URL_SITE_BASE || "https://medium-mamadou-coulibaly.com/"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_URL_SITE_BASE || "https://medium-mamadou-coulibaly.com"),
   title: "Medium Marabout Mamadou Coulibaly ",
   description: "Puissant medium marabout medium mamadou coulibaly, spécialiste en amour, protection, réussite et rituels puissants. Solutions rapides et efficaces à vos problèmes spirituels et personnels.",
   other: {

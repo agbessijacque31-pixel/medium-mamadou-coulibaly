@@ -32,12 +32,12 @@ export type SEOProps = {
 // ----------------------------
 const siteConfig = {
   name: process.env.NEXT_PUBLIC_SITE_NAME || "Marabout Mamadou Coulibaly",
-  url: process.env.NEXT_PUBLIC_URL_SITE_BASE || "https://www.medium-mamadou-coulibaly.com/",
+  url: process.env.NEXT_PUBLIC_URL_SITE_BASE || "https://www.medium-mamadou-coulibaly.com",
   other: {
     "google-site-verification": "",
   },
   twitter: process.env.NEXT_PUBLIC_TWITER_NAME || "@Mamadou Coulibaly",
-  defaultImage: `${process.env.NEXT_PUBLIC_URL_SITE_BASE || "https://www.medium-mamadou-coulibaly.com/"}image/coulibaly-mamadou.jpg`,
+  defaultImage: `${process.env.NEXT_PUBLIC_URL_SITE_BASE || "https://www.medium-mamadou-coulibaly.com"}/image/coulibaly-mamadou.jpg`,
 };
 
 // ----------------------------
