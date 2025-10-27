@@ -10,13 +10,13 @@ export type SEOProps = {
   authorName?: string;
   datePublished?: string;
   dateModified?: string;
-  type?: "WebSite" | "Article" ;
+  type?: "WebSite" | "Article";
 };
 
 export const seoAccueil: SEOProps = {
-  title: "Puissant Marabout du Bénin – Rituel d'Amour, Justice et Prospérité",
+  title: "Puissant Marabout du Bénin – Rituel de retour affectif, Affaire de Justice, Portefeuille Magique, Grossesse rapide, Prospérité, Envoutements",
   description:
-    "Découvrez le plus puissant marabout du Bénin et d’Afrique : rituels d’amour, retour affectif, protection, justice, chance et prospérité. Des solutions mystiques authentiques pour transformer votre vie.",
+    "Découvrez le plus puissant marabout du Bénin et d’Afrique : retour affectif, protection, justice, chance et prospérité. Des solutions mystiques authentiques pour transformer votre vie.",
   keywords: [
     "rituels spirituels",
     "rituels d’amour",
@@ -124,71 +124,71 @@ export const seoRetourAffectif: SEOProps = {
   title: "Rituels Mystiques pour le Retour Affectif et la Réconciliation Amoureuse",
   description:
     "Découvrez nos rituels puissants pour réunir les couples, raviver les sentiments et attirer l'amour perdu. Une tradition mystique transmise depuis plus de 40 ans.",
-keywords: [
-  "retour affectif",
-  "rituel retour affectif",
-  "rituel retour affectif avec photo",
-  "medium retour affectif",
-  "medium retour affectif rapide",
-  "medium voyance retour affectif",
-  "medium voyant retour affectif",
-  "medium retour de l'être aimé",
-  "meditation retour affectif",
-  "meditation retour amour",
-  "medium refoulé",
-  "affectif amoureux rapide retour affectif réussi",
-  "témoignage retour affectif réussi",
-  "témoignage retour affectif",
-  "témoignage retour affectif en 24h",
-  "voyance retour d'affection",
-  "voyant retour d'affection",
-  "médium marabout paris retour affectif île de france Mamadou Coulibaly",
-  "retour d'affection témoignages",
-  "retour affectif rapide en 24h",
-  "retour affectif rapide efficace",
-  "forum retour affectif",
-  "forum retour d'affection fonctionne",
-  "gilles et rose gandy avis",
-  "gilles et rose gandy coronavirus",
-  "hypnose retour affectif",
-  "retour affectif immédiat gratuit",
-  "retour affectif immédiat",
-  "medium vie antérieure paris",
-  "médium marabout retour affectif",
-  "psycho medium",
-  "psychomedia attachement",
-  "medium redon",
-  "retour affectif rapide",
-  "retour affectif sérieux avis",
-  "voyance retour affectif",
-  "ex medium",
-  "medium retour affectif combien de temps",
-  "retour affectif combien temps",
-  "est-ce que le retour affectif existe",
-  "retour affectif est-ce que ça marche",
-  "médium marabout retour affectif île de Martinique Mamadou Coulibaly",
-  "médium marabout retour affectif île de Guadeloupe Mamadou Coulibaly",
-  "Retour affectif et voyance",
-  "Voyance retour affectif",
-  "Voyant pour retour affectif",
-  "Prédiction retour affectif voyance",
-  "Voyance amour retour affectif",
-  "Conseil voyance retour affectif",
-  "Consultation voyance retour affectif",
-  "Voyance aide retour affectif",
-  "Voyance pour faire revenir son ex",
-  "Comprendre le retour affectif par la voyance",
-  "Voyance et réconciliation amoureuse",
-  "Comment la voyance influence le retour affectif",
-  "Marabout voyant retour affectif",
-  "Voyance en ligne retour affectif",
-  "Voyance fiable retour affectif",
-  "Tirage tarot retour affectif voyance",
-  "Avis voyance retour affectif",
-  "Médium retour affectif voyance",
-  "Voyance pour récupérer l'être aimé",
-  "Le rôle de la voyance dans le retour affectif"
-]
+  keywords: [
+    "retour affectif",
+    "rituel retour affectif",
+    "rituel retour affectif avec photo",
+    "medium retour affectif",
+    "medium retour affectif rapide",
+    "medium voyance retour affectif",
+    "medium voyant retour affectif",
+    "medium retour de l'être aimé",
+    "meditation retour affectif",
+    "meditation retour amour",
+    "medium refoulé",
+    "affectif amoureux rapide retour affectif réussi",
+    "témoignage retour affectif réussi",
+    "témoignage retour affectif",
+    "témoignage retour affectif en 24h",
+    "voyance retour d'affection",
+    "voyant retour d'affection",
+    "médium marabout paris retour affectif île de france Mamadou Coulibaly",
+    "retour d'affection témoignages",
+    "retour affectif rapide en 24h",
+    "retour affectif rapide efficace",
+    "forum retour affectif",
+    "forum retour d'affection fonctionne",
+    "gilles et rose gandy avis",
+    "gilles et rose gandy coronavirus",
+    "hypnose retour affectif",
+    "retour affectif immédiat gratuit",
+    "retour affectif immédiat",
+    "medium vie antérieure paris",
+    "médium marabout retour affectif",
+    "psycho medium",
+    "psychomedia attachement",
+    "medium redon",
+    "retour affectif rapide",
+    "retour affectif sérieux avis",
+    "voyance retour affectif",
+    "ex medium",
+    "medium retour affectif combien de temps",
+    "retour affectif combien temps",
+    "est-ce que le retour affectif existe",
+    "retour affectif est-ce que ça marche",
+    "médium marabout retour affectif île de Martinique Mamadou Coulibaly",
+    "médium marabout retour affectif île de Guadeloupe Mamadou Coulibaly",
+    "Retour affectif et voyance",
+    "Voyance retour affectif",
+    "Voyant pour retour affectif",
+    "Prédiction retour affectif voyance",
+    "Voyance amour retour affectif",
+    "Conseil voyance retour affectif",
+    "Consultation voyance retour affectif",
+    "Voyance aide retour affectif",
+    "Voyance pour faire revenir son ex",
+    "Comprendre le retour affectif par la voyance",
+    "Voyance et réconciliation amoureuse",
+    "Comment la voyance influence le retour affectif",
+    "Marabout voyant retour affectif",
+    "Voyance en ligne retour affectif",
+    "Voyance fiable retour affectif",
+    "Tirage tarot retour affectif voyance",
+    "Avis voyance retour affectif",
+    "Médium retour affectif voyance",
+    "Voyance pour récupérer l'être aimé",
+    "Le rôle de la voyance dans le retour affectif"
+  ]
   ,
   path: "/rituels-de-retour-affectif",
   tags: [
@@ -225,7 +225,7 @@ export const seoEnvoutement: SEOProps = {
     "à quoi servent les rituels en classe",
     "rituel de sort d'altération"
   ],
-  path: "envoutements",
+  path: "/rituels-de-envoutements",
   tags: [
     "envoutement",
     "amour",
@@ -287,7 +287,7 @@ export const seoJustice: SEOProps = {
     "mystique dans le bureau du juge",
     "rituel contre ses ennemis"
   ],
-  path: "/affaires-justice",
+  path: "/rituels-pour-affaire-de-justice",
   tags: [
     "justice",
     "procès",
@@ -318,7 +318,7 @@ export const seoGalerie: SEOProps = {
     "rituel de justice",
     "galerie marabout puissant"
   ],
-  path: "/galerie",
+  path: "/galeries",
   tags: ["galerie", "rituels", "cérémonies", "transformation", "photos mystiques"],
   section: "Galerie",
   authorName: "Marabout Mamadou Coulibaly",
@@ -344,7 +344,7 @@ export const seoTemoignages: SEOProps = {
     "avis rituel marabout",
     "témoignages authentiques"
   ],
-  path: "temoignages",
+  path: "/temoignages",
   tags: [
     "témoignages",
     "retour affectif",
@@ -407,28 +407,6 @@ export const seoContact: SEOProps = {
   type: "WebSite",
 };
 
-export const seoPropos: SEOProps = {
-  title: "À propos de Marabout Mamadou Coulibaly – Maître Mystique et Marabout Puissant",
-  description:
-    "Découvrez l’histoire de Marabout Mamadou Coulibaly, maître mystique du Bénin et marabout puissant, héritier d’un savoir ancestral depuis plus de 40 ans. Expert en retour affectif, envoûtement, prospérité, protection et justice.",
-  keywords: [
-    "à propos Marabout Mamadou Coulibaly",
-    "héritier savoir mystique",
-    "tradition ancestrale",
-    "rituels retour affectif",
-    "rituels prospérité",
-    "rituels protection",
-    "marabout puissant bénin",
-    "maître mystique africain",
-    "histoire marabout africain",
-    "maître marabout puissant"
-  ],
-  path: "/a-propos",
-  tags: ["Marabout Mamadou Coulibaly", "maître mystique", "marabout puissant", "tradition ancestrale"],
-  section: "À propos",
-  authorName: "Marabout Mamadou Coulibaly",
-  type: "WebSite",
-};
 
 
 export const seoRichesse: SEOProps = {
@@ -476,7 +454,7 @@ export const seoRichesse: SEOProps = {
     "rituel fortune rapide",
     "rituel prospérité efficace"
   ],
-  path: "/richesse",
+  path: "/rituels-de-richesses",
   tags: ["richesse", "argent", "prospérité", "abondance", "succès"],
   section: "Richesse",
   authorName: "MARABOUT Mamadou Coulibaly",
@@ -506,7 +484,7 @@ export const seoFertilite: SEOProps = {
     "rituel ancestral fertilité",
     "comment tomber enceinte rituel"
   ],
-  path: "fertilite",
+  path: "/rituels-de-fertilite",
   tags: [
     "fertilité",
     "virilité",
@@ -542,7 +520,7 @@ export const seoAttiranceClientele: SEOProps = {
     "attirer la clientèle rituel africain",
     "rituel pour augmenter ses clients",
   ],
-  path: "attirance-clientele",
+  path: "/rituels-pour-attirance-clientele",
   tags: [
     "attirance clientèle",
     "commerce",
@@ -577,7 +555,7 @@ export const seoMaladiesIncurables: SEOProps = {
     "rituel pour soulager les douleurs",
     "rituel guérison marabout Coulibaly"
   ],
-  path: "maladies-incurables",
+  path: "/maladies-incurables",
   tags: [
     "guérison",
     "maladies incurables",
@@ -612,7 +590,7 @@ export const seoChance: SEOProps = {
     "rituel pour réussir dans la vie",
     "chance et réussite spirituelle",
   ],
-  path: "chance",
+  path: "/rituels-de-chance",
   tags: [
     "chance",
     "réussite",

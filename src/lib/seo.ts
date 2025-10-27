@@ -210,7 +210,7 @@ export function seoPropsFromArticle(article: ArticleWithRelations): SEOProps {
 }
 
 type SEOSource = { id: number; name: string; slug: string };
-type SEOType = "category" | "tag";
+type SEOType = "categorie" | "tag";
 
 async function seoPropsFromSource(
   sourceSlug: string,
@@ -218,12 +218,12 @@ async function seoPropsFromSource(
 ): Promise<SEOProps> {
   // Récupération de la source (catégorie ou tag)
   const source: SEOSource | null =
-    type === "category"
+    type === "categorie"
       ? await prisma.category.findUnique({ where: { slug: sourceSlug } })
       : await prisma.tag.findUnique({ where: { slug: sourceSlug } });
 
   if (!source) {
-    const label = type === "category" ? "Catégorie" : "Tag";
+    const label = type === "categorie" ? "Catégorie" : "Tag";
     return {
       title: `${label} "${sourceSlug}" | Découvrez nos rituels populaires`,
       description: `${label} "${sourceSlug}" du marabout Mamadou Coulibaly. Explorez nos rituels les plus populaires pour trouver des solutions immédiatement.`,
@@ -234,7 +234,7 @@ async function seoPropsFromSource(
   // Récupération des articles associés
   const articles = await prisma.article.findMany({
     where:
-      type === "category"
+      type === "categorie"
         ? { categoryId: source.id }
         : { tagsArticles: { some: { tagId: source.id } } },
     include: { tagsArticles: { select: { tag: { select: { name: true } } } } },
@@ -250,7 +250,7 @@ async function seoPropsFromSource(
 
   const title = `${contentType} sur "${source.name}" (${currentYear}) | ${topTags}`;
   const description = `Découvrez ${articles.length} ${articles.length > 1 ? "rituels" : "rituel"
-    } ${type === "category" ? "dans la catégorie" : "liés au tag"} "${source.name
+    } ${type === "categorie" ? "dans la catégorie" : "liés au tag"} "${source.name
     }", incluant ${topTags}. Restez informé et enrichissez vos connaissances en ${source.name} cette année !`;
 
   return {
@@ -265,7 +265,7 @@ async function seoPropsFromSource(
 }
 
 // --- Fonctions spécifiques (simple wrapper) ---
-export const seoPropsFromCategoryDynamic = (slug: string) => seoPropsFromSource(slug, "category");
+export const seoPropsFromCategoryDynamic = (slug: string) => seoPropsFromSource(slug, "categorie");
 
 export const seoPropsFromTagDynamic = (slug: string) => seoPropsFromSource(slug, "tag");
 

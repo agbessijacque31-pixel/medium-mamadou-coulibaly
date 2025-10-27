@@ -58,7 +58,7 @@ export default async function CategoriePage({ params }: Props) {
       <BlogLayout content={content} tags={tagCategoryArticles}>
         <article className="lg:col-span-3 space-y-10 container mx-auto px-4 py-8">
           <h1 className="text-3xl font-bold mb-6 text-center">Articles dans la catégorie : {category.name}</h1>
-          <ArticleGrid articles={categoryArticles} hrefPrefix="/articles" />
+          <ArticleGrid articles={categoryArticles} hrefPrefix="/rituels" />
           <ArticleGrid articles={articlesAll} title="Autres articles" />
         </article>
       </BlogLayout>
